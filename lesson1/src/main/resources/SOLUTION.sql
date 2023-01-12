@@ -2,7 +2,7 @@ CREATE TABLE Student(
     id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
     name varchar(50),
     birthday date,
-    groupnumber int(10)
+    groupnumber int
 );
 CREATE TABLE Subject(
     id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
